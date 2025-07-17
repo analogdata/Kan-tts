@@ -1,0 +1,45 @@
+{
+  "model": "glow_tts",
+  "run_name": "kannada_voice_glowtts",
+  "output_path": "output/",
+
+  "dataset": {
+    "formatter": "ljspeech",
+    "dataset_name": "kannada_voice_dataset",
+    "path": "./my_voice_dataset",
+    "meta_file_train": "metadata.csv",
+    "meta_file_val": "metadata.csv",
+    "language": "kn"
+  },
+
+  "audio": {
+    "sample_rate": 22050,
+    "fft_size": 1024,
+    "win_length": 1024,
+    "hop_length": 256,
+    "num_mels": 80,
+    "fmin": 0,
+    "fmax": 8000,
+    "power": 1.5,
+    "normalize": true
+  },
+
+  "model_args": {
+    "num_speakers": 1,
+    "use_speaker_embedding": false
+  },
+
+  "train_args": {
+    "batch_size": 8,
+    "epochs": 1000,
+    "lr": 1e-4,
+    "eval_step": 100,
+    "save_step": 100,
+    "keep_n_checkpoints": 5,
+    "print_step": 25,
+    "num_loader_workers": 1
+  },
+
+  "use_cuda": false,
+  "use_mps": true
+}
