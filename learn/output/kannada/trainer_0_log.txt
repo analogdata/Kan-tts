@@ -1,0 +1,207 @@
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: False
+ | > Precision: float32
+ | > Num. of CPUs: 16
+ | > Num. of Torch Threads: 12
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+ > Model has 28597969 parameters
+
+[4m[1m > EPOCH: 0/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:48:09) [0m
+
+[1m   --> TIME: 2025-07-17 16:48:14 -- STEP: 0/1 -- GLOBAL_STEP: 0[0m
+     | > current_lr: 2.5e-07 
+     | > step_time: 3.9113  (3.911256790161133)
+     | > loader_time: 0.7659  (0.7658569812774658)
+
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time: 0.4586489200592041 [0m(+0)
+     | > avg_loss: 9.209330558776855 [0m(+0)
+     | > avg_log_mle: 0.48028114438056946 [0m(+0)
+     | > avg_loss_dur: 8.729049682617188 [0m(+0)
+
+ > BEST MODEL : learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b/best_model_1.pth
+
+[4m[1m > EPOCH: 1/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:48:19) [0m
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.43824291229248047 [0m(-0.020406007766723633)
+     | > avg_loss: 9.209330558776855 [0m(+0.0)
+     | > avg_log_mle: 0.48028114438056946 [0m(+0.0)
+     | > avg_loss_dur: 8.729049682617188 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 2/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:48:27) [0m
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.44500112533569336 [0m(+0.006758213043212891)
+     | > avg_loss: 9.209330558776855 [0m(+0.0)
+     | > avg_log_mle: 0.48028114438056946 [0m(+0.0)
+     | > avg_loss_dur: 8.729049682617188 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 3/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:48:36) [0m
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.4693269729614258 [0m(+0.024325847625732422)
+     | > avg_loss: 9.209330558776855 [0m(+0.0)
+     | > avg_log_mle: 0.48028114438056946 [0m(+0.0)
+     | > avg_loss_dur: 8.729049682617188 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 4/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:48:46) [0m
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.44556689262390137 [0m(-0.023760080337524414)
+     | > avg_loss: 9.209330558776855 [0m(+0.0)
+     | > avg_log_mle: 0.48028114438056946 [0m(+0.0)
+     | > avg_loss_dur: 8.729049682617188 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 5/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:48:55) [0m
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.50295090675354 [0m(+0.05738401412963867)
+     | > avg_loss: 9.209330558776855 [0m(+0.0)
+     | > avg_log_mle: 0.48028114438056946 [0m(+0.0)
+     | > avg_loss_dur: 8.729049682617188 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 6/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:49:04) [0m
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.4645578861236572 [0m(-0.03839302062988281)
+     | > avg_loss: 9.209330558776855 [0m(+0.0)
+     | > avg_log_mle: 0.48028114438056946 [0m(+0.0)
+     | > avg_loss_dur: 8.729049682617188 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 7/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:49:13) [0m
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.4225618839263916 [0m(-0.041996002197265625)
+     | > avg_loss: 9.209330558776855 [0m(+0.0)
+     | > avg_log_mle: 0.48028114438056946 [0m(+0.0)
+     | > avg_loss_dur: 8.729049682617188 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 8/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:49:22) [0m
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.4578256607055664 [0m(+0.035263776779174805)
+     | > avg_loss: 9.209330558776855 [0m(+0.0)
+     | > avg_log_mle: 0.48028114438056946 [0m(+0.0)
+     | > avg_loss_dur: 8.729049682617188 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 9/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:49:31) [0m
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[92m 0.44704198837280273 [0m(-0.010783672332763672)
+     | > avg_loss: 9.209330558776855 [0m(+0.0)
+     | > avg_log_mle: 0.48028114438056946 [0m(+0.0)
+     | > avg_loss_dur: 8.729049682617188 [0m(+0.0)
+
+
+[4m[1m > EPOCH: 10/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:49:40) [0m
+
+[1m > EVALUATION [0m
+
+
+  [1m--> EVAL PERFORMANCE[0m
+     | > avg_loader_time:[91m 0.46355104446411133 [0m(+0.016509056091308594)
+     | > avg_loss:[92m 9.173813819885254 [0m(-0.03551673889160156)
+     | > avg_log_mle:[92m 0.4802807569503784 [0m(-3.8743019104003906e-07)
+     | > avg_loss_dur:[92m 8.693532943725586 [0m(-0.03551673889160156)
+
+ > BEST MODEL : learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b/best_model_11.pth
+
+[4m[1m > EPOCH: 11/1000[0m
+ --> learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
+
+[1m > TRAINING (2025-07-17 16:49:55) [0m
+ > Keyboard interrupt detected.
+ > Saving model before exiting...
+
+ > CHECKPOINT : learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b/checkpoint_11.pth
+ ! Run is kept in learn/output/kannada_voice_glowtts-July-17-2025_04+48PM-e4cc54b
